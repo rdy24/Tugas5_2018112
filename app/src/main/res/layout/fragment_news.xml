@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:orientation="vertical"
+            android:background="@drawable/main_bg"
+            tools:ignore="UselessParent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginHorizontal="5dp"
+                android:gravity="center"
+                android:text="@string/main_title"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:lineHeight="45dp"
+                android:textSize="35sp" />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F3F3F3"
+            android:orientation="vertical">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Health Care</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="main_title">Health News App the best app for your health</string>
+    <string-array name="judul">
+        <item>r/worldnews</item>
+        <item>r/worldnews</item>
+        <item>r/worldnews</item>
+        <item>r/worldnews</item>
+        <item>r/worldnews</item>
+    </string-array>
+    <string-array name="subjudul">
+        <item>How Coronavirus is going to impact you next trip.</item>
+        <item>Getting The Upper Hand On Asthma Allergy</item>
+        <item>How to get rid of your acne</item>
+        <item>The Different Types Of Laser Eye Surgery</item>
+        <item>Skin Cancer Prevention 5 Ways To Protect Yourself </item>
+    </string-array>
+</resources>
