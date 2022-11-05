@@ -11,7 +11,6 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 public class HealthAdapter extends RecyclerView.Adapter<HealthAdapter.HealthViewHolder> {
-//    apply the recycler view in fragment news
     String data1[], data2[];
     int images[];
     NewsFragment context;
