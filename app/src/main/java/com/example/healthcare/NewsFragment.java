@@ -12,7 +12,7 @@ import android.view.ViewGroup;
 
 public class NewsFragment extends Fragment {
     RecyclerView recylerView;
-    String s1[], s2[],s3[];
+    String s1[], s2[];
     int images[] = {
             R.drawable.image1,
             R.drawable.image2,
